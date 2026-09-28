@@ -14,7 +14,7 @@ import {
   Tent,
   BedDouble
 } from 'lucide-react';
-import { HOST_INFO } from '../data/mediaData';
+import { HOST_INFO, getAssetUrl } from '../data/mediaData';
 
 export default function Hero() {
   const handleWhatsAppBooking = () => {
@@ -29,9 +29,9 @@ export default function Hero() {
       {/* High-res authentic scenic background with luxury gradient masks */}
       <div className="absolute inset-0 z-0">
         <img
-          src="./media/winterline-28.jpg"
+          src={getAssetUrl('media/winterline-28.jpg')}
           alt="Homestay Winter Line panoramic glass dining and valley view in Dhanaulti"
-          className="w-full h-full object-cover object-center scale-105 filter brightness-[0.45] contrast-[1.1] transition-transform duration-10000 hover:scale-100"
+          className="w-full h-full object-cover object-center scale-105 filter brightness-[0.7] contrast-[1.05] transition-transform duration-10000 hover:scale-100"
         />
         {/* Cinematic gradient overlays: twilight sky to deep midnight ground */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#07090e] via-[#07090e]/60 to-[#07090e]/80" />

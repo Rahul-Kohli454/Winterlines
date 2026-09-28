@@ -57,6 +57,15 @@ export interface GalleryItem {
   description?: string;
 }
 
+export const getAssetUrl = (path: string): string => {
+  if (!path) return '';
+  const clean = path.replace(/^\.\//, '').replace(/^\//, '');
+  if (typeof window !== 'undefined' && window.location.pathname.toLowerCase().includes('winterlines')) {
+    return '/Winterlines/' + clean;
+  }
+  return './' + clean;
+};
+
 export const HOST_INFO = {
   name: 'Homestay Winter Line',
   legalName: 'Homestay Winter Line Dhanaulti',
@@ -456,4 +465,21 @@ export const TESTIMONIALS = [
     tag: 'Winter Line Sunset & Stay'
   }
 ];
+
+// Automatically ensure all media paths resolve correctly on GitHub Pages or custom domain
+ROOMS.forEach(r => {
+  r.images = r.images.map(getAssetUrl);
+});
+ADVENTURES.forEach(a => {
+  a.image = getAssetUrl(a.image);
+});
+TREK_STEPS.forEach(s => {
+  s.image = getAssetUrl(s.image);
+});
+TREK_PHOTOS.forEach(p => {
+  p.url = getAssetUrl(p.url);
+});
+GALLERY_ITEMS.forEach(g => {
+  g.url = getAssetUrl(g.url);
+});
 

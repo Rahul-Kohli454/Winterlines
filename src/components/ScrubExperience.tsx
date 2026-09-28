@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { motion, useScroll, useMotionValueEvent, AnimatePresence } from 'framer-motion';
 import { Mountain, Compass, Sparkles, ArrowRight } from 'lucide-react';
+import { getAssetUrl } from '../data/mediaData';
 
 interface Slide {
   step: string;
@@ -81,11 +82,18 @@ export default function ScrubExperience() {
 
     const onLoaded = () => {
       setVideoReady(true);
-      v.currentTime = 0;
+      if (v.currentTime === 0) {
+        v.currentTime = 0.1;
+      }
       v.play().then(() => v.pause()).catch(() => {});
     };
 
-    v.addEventListener('loadedmetadata', onLoaded);
+    if (v.readyState >= 1) {
+      onLoaded();
+    } else {
+      v.addEventListener('loadedmetadata', onLoaded);
+      v.addEventListener('canplay', onLoaded);
+    }
 
     let rafId: number;
     const tick = () => {
@@ -108,6 +116,7 @@ export default function ScrubExperience() {
     return () => {
       cancelAnimationFrame(rafId);
       v.removeEventListener('loadedmetadata', onLoaded);
+      v.removeEventListener('canplay', onLoaded);
     };
   }, [videoReady]);
 
@@ -121,16 +130,18 @@ export default function ScrubExperience() {
         <div className="absolute inset-0 z-0">
           <video
             ref={videoRef}
-            src="./media/winterline-experience.mp4"
-            poster="./media/video-poster.jpg"
+            src={getAssetUrl('media/winterline-experience.mp4')}
+            poster={getAssetUrl('media/video-poster.jpg')}
             muted
             playsInline
             preload="auto"
-            className="w-full h-full object-cover filter brightness-[0.45] contrast-[1.1]"
+            autoPlay
+            loop
+            className="w-full h-full object-cover filter brightness-[0.75] contrast-[1.05]"
           />
           {/* Subtle gradient vignette to blend with dark page */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#07090e] via-black/30 to-[#07090e]/85" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#07090e]/80 via-transparent to-[#07090e]/80" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#07090e] via-transparent to-[#07090e]/60" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#07090e]/60 via-transparent to-[#07090e]/60" />
         </div>
 
         {/* Content Container with Mutual Exclusion via AnimatePresence */}
