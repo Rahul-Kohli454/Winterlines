@@ -1,0 +1,915 @@
+{
+  "video": "/media/winterline-experience.mp4",
+  "images": [
+    {
+      "id": "winterline-01",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.50.jpeg",
+      "url": "/media/winterline-01.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 86890
+    },
+    {
+      "id": "winterline-02",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.51 (1).jpeg",
+      "url": "/media/winterline-02.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 124185
+    },
+    {
+      "id": "winterline-03",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.51 (2).jpeg",
+      "url": "/media/winterline-03.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 90288
+    },
+    {
+      "id": "winterline-04",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.51.jpeg",
+      "url": "/media/winterline-04.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 235296
+    },
+    {
+      "id": "winterline-05",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.52 (1).jpeg",
+      "url": "/media/winterline-05.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 109848
+    },
+    {
+      "id": "winterline-06",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.52.jpeg",
+      "url": "/media/winterline-06.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 94390
+    },
+    {
+      "id": "winterline-07",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.57.jpeg",
+      "url": "/media/winterline-07.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 128830
+    },
+    {
+      "id": "winterline-08",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.58 (1).jpeg",
+      "url": "/media/winterline-08.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 108603
+    },
+    {
+      "id": "winterline-09",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.58.jpeg",
+      "url": "/media/winterline-09.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 99626
+    },
+    {
+      "id": "winterline-10",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.59 (1).jpeg",
+      "url": "/media/winterline-10.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 131875
+    },
+    {
+      "id": "winterline-11",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.47.59.jpeg",
+      "url": "/media/winterline-11.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 126526
+    },
+    {
+      "id": "winterline-12",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.00 (1).jpeg",
+      "url": "/media/winterline-12.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 118380
+    },
+    {
+      "id": "winterline-13",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.00.jpeg",
+      "url": "/media/winterline-13.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 100329
+    },
+    {
+      "id": "winterline-14",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.01 (1).jpeg",
+      "url": "/media/winterline-14.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 297769
+    },
+    {
+      "id": "winterline-15",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.01.jpeg",
+      "url": "/media/winterline-15.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 169629
+    },
+    {
+      "id": "winterline-16",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.02.jpeg",
+      "url": "/media/winterline-16.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 168678
+    },
+    {
+      "id": "winterline-17",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.03.jpeg",
+      "url": "/media/winterline-17.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 305644
+    },
+    {
+      "id": "winterline-18",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.04.jpeg",
+      "url": "/media/winterline-18.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 192323
+    },
+    {
+      "id": "winterline-19",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.05.jpeg",
+      "url": "/media/winterline-19.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 170999
+    },
+    {
+      "id": "winterline-20",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.06 (1).jpeg",
+      "url": "/media/winterline-20.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 112723
+    },
+    {
+      "id": "winterline-21",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.06.jpeg",
+      "url": "/media/winterline-21.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 185608
+    },
+    {
+      "id": "winterline-22",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.08 (1).jpeg",
+      "url": "/media/winterline-22.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 184932
+    },
+    {
+      "id": "winterline-23",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.08.jpeg",
+      "url": "/media/winterline-23.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 155439
+    },
+    {
+      "id": "winterline-24",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.09 (1).jpeg",
+      "url": "/media/winterline-24.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 135946
+    },
+    {
+      "id": "winterline-25",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.09.jpeg",
+      "url": "/media/winterline-25.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 129516
+    },
+    {
+      "id": "winterline-26",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.11 (1).jpeg",
+      "url": "/media/winterline-26.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 127093
+    },
+    {
+      "id": "winterline-27",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.11 (2).jpeg",
+      "url": "/media/winterline-27.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 282761
+    },
+    {
+      "id": "winterline-28",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.11.jpeg",
+      "url": "/media/winterline-28.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 248027
+    },
+    {
+      "id": "winterline-29",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.12.jpeg",
+      "url": "/media/winterline-29.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 181605
+    },
+    {
+      "id": "winterline-30",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.13.jpeg",
+      "url": "/media/winterline-30.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 212466
+    },
+    {
+      "id": "winterline-31",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.14 (1).jpeg",
+      "url": "/media/winterline-31.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 143639
+    },
+    {
+      "id": "winterline-32",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.14.jpeg",
+      "url": "/media/winterline-32.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 216483
+    },
+    {
+      "id": "winterline-33",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.15.jpeg",
+      "url": "/media/winterline-33.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 192286
+    },
+    {
+      "id": "winterline-34",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.16 (1).jpeg",
+      "url": "/media/winterline-34.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 153329
+    },
+    {
+      "id": "winterline-35",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.16.jpeg",
+      "url": "/media/winterline-35.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 196087
+    },
+    {
+      "id": "winterline-36",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.17 (1).jpeg",
+      "url": "/media/winterline-36.jpg",
+      "width": 714,
+      "height": 1599,
+      "isLandscape": false,
+      "aspectRatio": 0.45,
+      "size": 83007
+    },
+    {
+      "id": "winterline-37",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.17.jpeg",
+      "url": "/media/winterline-37.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 105917
+    },
+    {
+      "id": "winterline-38",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.18.jpeg",
+      "url": "/media/winterline-38.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 230488
+    },
+    {
+      "id": "winterline-39",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.19.jpeg",
+      "url": "/media/winterline-39.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 255570
+    },
+    {
+      "id": "winterline-40",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.20 (1).jpeg",
+      "url": "/media/winterline-40.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 219030
+    },
+    {
+      "id": "winterline-41",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.20.jpeg",
+      "url": "/media/winterline-41.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 124444
+    },
+    {
+      "id": "winterline-42",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.22 (1).jpeg",
+      "url": "/media/winterline-42.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 165583
+    },
+    {
+      "id": "winterline-43",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.22 (2).jpeg",
+      "url": "/media/winterline-43.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 165583
+    },
+    {
+      "id": "winterline-44",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.22.jpeg",
+      "url": "/media/winterline-44.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 218146
+    },
+    {
+      "id": "winterline-45",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.23 (1).jpeg",
+      "url": "/media/winterline-45.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 218584
+    },
+    {
+      "id": "winterline-46",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.23.jpeg",
+      "url": "/media/winterline-46.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 218584
+    },
+    {
+      "id": "winterline-47",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.24.jpeg",
+      "url": "/media/winterline-47.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 285014
+    },
+    {
+      "id": "winterline-48",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.25.jpeg",
+      "url": "/media/winterline-48.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 204362
+    },
+    {
+      "id": "winterline-49",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.26 (1).jpeg",
+      "url": "/media/winterline-49.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 105768
+    },
+    {
+      "id": "winterline-50",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.26 (2).jpeg",
+      "url": "/media/winterline-50.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 130659
+    },
+    {
+      "id": "winterline-51",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.26.jpeg",
+      "url": "/media/winterline-51.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 204058
+    },
+    {
+      "id": "winterline-52",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.27.jpeg",
+      "url": "/media/winterline-52.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 130294
+    },
+    {
+      "id": "winterline-53",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.28 (1).jpeg",
+      "url": "/media/winterline-53.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 135988
+    },
+    {
+      "id": "winterline-54",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.28.jpeg",
+      "url": "/media/winterline-54.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 132387
+    },
+    {
+      "id": "winterline-55",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.29 (1).jpeg",
+      "url": "/media/winterline-55.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 88191
+    },
+    {
+      "id": "winterline-56",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.29 (2).jpeg",
+      "url": "/media/winterline-56.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 130033
+    },
+    {
+      "id": "winterline-57",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.29.jpeg",
+      "url": "/media/winterline-57.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 111787
+    },
+    {
+      "id": "winterline-58",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.30.jpeg",
+      "url": "/media/winterline-58.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 122571
+    },
+    {
+      "id": "winterline-59",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.31.jpeg",
+      "url": "/media/winterline-59.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 135818
+    },
+    {
+      "id": "winterline-60",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.32 (1).jpeg",
+      "url": "/media/winterline-60.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 137300
+    },
+    {
+      "id": "winterline-61",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.32.jpeg",
+      "url": "/media/winterline-61.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 145453
+    },
+    {
+      "id": "winterline-62",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.33 (1).jpeg",
+      "url": "/media/winterline-62.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 130833
+    },
+    {
+      "id": "winterline-63",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.33 (2).jpeg",
+      "url": "/media/winterline-63.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 119067
+    },
+    {
+      "id": "winterline-64",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.33.jpeg",
+      "url": "/media/winterline-64.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 126611
+    },
+    {
+      "id": "winterline-65",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.51.jpeg",
+      "url": "/media/winterline-65.jpg",
+      "width": 1040,
+      "height": 468,
+      "isLandscape": true,
+      "aspectRatio": 2.22,
+      "size": 49277
+    },
+    {
+      "id": "winterline-66",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.52 (1).jpeg",
+      "url": "/media/winterline-66.jpg",
+      "width": 1280,
+      "height": 578,
+      "isLandscape": true,
+      "aspectRatio": 2.21,
+      "size": 86551
+    },
+    {
+      "id": "winterline-67",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.48.52.jpeg",
+      "url": "/media/winterline-67.jpg",
+      "width": 1280,
+      "height": 578,
+      "isLandscape": true,
+      "aspectRatio": 2.21,
+      "size": 151707
+    },
+    {
+      "id": "winterline-68",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.50.05.jpeg",
+      "url": "/media/winterline-68.jpg",
+      "width": 1040,
+      "height": 468,
+      "isLandscape": true,
+      "aspectRatio": 2.22,
+      "size": 49277
+    },
+    {
+      "id": "winterline-69",
+      "originalName": "WhatsApp Image 2026-09-18 at 09.50.24.jpeg",
+      "url": "/media/winterline-69.jpg",
+      "width": 721,
+      "height": 1280,
+      "isLandscape": false,
+      "aspectRatio": 0.56,
+      "size": 165710
+    },
+    {
+      "id": "winterline-70",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.45.jpeg",
+      "url": "/media/winterline-70.jpg",
+      "width": 1280,
+      "height": 853,
+      "isLandscape": true,
+      "aspectRatio": 1.5,
+      "size": 302007
+    },
+    {
+      "id": "winterline-71",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.46 (1).jpeg",
+      "url": "/media/winterline-71.jpg",
+      "width": 1600,
+      "height": 900,
+      "isLandscape": true,
+      "aspectRatio": 1.78,
+      "size": 102527
+    },
+    {
+      "id": "winterline-72",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.46.jpeg",
+      "url": "/media/winterline-72.jpg",
+      "width": 1280,
+      "height": 853,
+      "isLandscape": true,
+      "aspectRatio": 1.5,
+      "size": 301839
+    },
+    {
+      "id": "winterline-73",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.47.jpeg",
+      "url": "/media/winterline-73.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 73990
+    },
+    {
+      "id": "winterline-74",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.48.jpeg",
+      "url": "/media/winterline-74.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 129579
+    },
+    {
+      "id": "winterline-75",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.50.jpeg",
+      "url": "/media/winterline-75.jpg",
+      "width": 839,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.52,
+      "size": 225721
+    },
+    {
+      "id": "winterline-76",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.51 (1).jpeg",
+      "url": "/media/winterline-76.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 299648
+    },
+    {
+      "id": "winterline-77",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.51 (2).jpeg",
+      "url": "/media/winterline-77.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 188847
+    },
+    {
+      "id": "winterline-78",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.51.jpeg",
+      "url": "/media/winterline-78.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 320241
+    },
+    {
+      "id": "winterline-79",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.52 (1).jpeg",
+      "url": "/media/winterline-79.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 206636
+    },
+    {
+      "id": "winterline-80",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.52 (2).jpeg",
+      "url": "/media/winterline-80.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 490753
+    },
+    {
+      "id": "winterline-81",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.52.jpeg",
+      "url": "/media/winterline-81.jpg",
+      "width": 720,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.45,
+      "size": 715545
+    },
+    {
+      "id": "winterline-82",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.53 (1).jpeg",
+      "url": "/media/winterline-82.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 105917
+    },
+    {
+      "id": "winterline-83",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.53 (2).jpeg",
+      "url": "/media/winterline-83.jpg",
+      "width": 1600,
+      "height": 1200,
+      "isLandscape": true,
+      "aspectRatio": 1.33,
+      "size": 105917
+    },
+    {
+      "id": "winterline-84",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.53.jpeg",
+      "url": "/media/winterline-84.jpg",
+      "width": 720,
+      "height": 704,
+      "isLandscape": true,
+      "aspectRatio": 1.02,
+      "size": 573958
+    },
+    {
+      "id": "winterline-85",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.54 (1).jpeg",
+      "url": "/media/winterline-85.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 516270
+    },
+    {
+      "id": "winterline-86",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.54 (2).jpeg",
+      "url": "/media/winterline-86.jpg",
+      "width": 714,
+      "height": 1599,
+      "isLandscape": false,
+      "aspectRatio": 0.45,
+      "size": 83909
+    },
+    {
+      "id": "winterline-87",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.54.jpeg",
+      "url": "/media/winterline-87.jpg",
+      "width": 1200,
+      "height": 1600,
+      "isLandscape": false,
+      "aspectRatio": 0.75,
+      "size": 299648
+    },
+    {
+      "id": "winterline-88",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.55 (1).jpeg",
+      "url": "/media/winterline-88.jpg",
+      "width": 714,
+      "height": 1599,
+      "isLandscape": false,
+      "aspectRatio": 0.45,
+      "size": 51567
+    },
+    {
+      "id": "winterline-89",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.55 (2).jpeg",
+      "url": "/media/winterline-89.jpg",
+      "width": 714,
+      "height": 1599,
+      "isLandscape": false,
+      "aspectRatio": 0.45,
+      "size": 51567
+    },
+    {
+      "id": "winterline-90",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.55.jpeg",
+      "url": "/media/winterline-90.jpg",
+      "width": 714,
+      "height": 1599,
+      "isLandscape": false,
+      "aspectRatio": 0.45,
+      "size": 82122
+    },
+    {
+      "id": "winterline-91",
+      "originalName": "WhatsApp Image 2026-09-26 at 07.56.56.jpeg",
+      "url": "/media/winterline-91.jpg",
+      "width": 714,
+      "height": 1599,
+      "isLandscape": false,
+      "aspectRatio": 0.45,
+      "size": 96369
+    }
+  ]
+}
