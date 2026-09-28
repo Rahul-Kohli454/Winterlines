@@ -29,7 +29,7 @@ export default function Hero() {
       {/* High-res authentic scenic background with luxury gradient masks */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/media/winterline-28.jpg"
+          src="./media/winterline-28.jpg"
           alt="Homestay Winter Line panoramic glass dining and valley view in Dhanaulti"
           className="w-full h-full object-cover object-center scale-105 filter brightness-[0.45] contrast-[1.1] transition-transform duration-10000 hover:scale-100"
         />

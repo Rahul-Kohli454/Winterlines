@@ -84,10 +84,10 @@ export const ROOMS: Room[] = [
     bedType: 'King Size Comfort Bed',
     popular: true,
     images: [
-      '/media/winterline-54.jpg', // WhatsApp Image 2026-09-18 at 09.48.28.jpeg
-      '/media/winterline-41.jpg', // WhatsApp Image 2026-09-18 at 09.48.20.jpeg
-      '/media/winterline-01.jpg', // WhatsApp Image 2026-09-18 at 09.47.50.jpeg
-      '/media/winterline-28.jpg', // WhatsApp Image 2026-09-18 at 09.48.11 (2).jpeg (dining / view)
+      './media/winterline-54.jpg', // WhatsApp Image 2026-09-18 at 09.48.28.jpeg
+      './media/winterline-41.jpg', // WhatsApp Image 2026-09-18 at 09.48.20.jpeg
+      './media/winterline-01.jpg', // WhatsApp Image 2026-09-18 at 09.47.50.jpeg
+      './media/winterline-28.jpg', // WhatsApp Image 2026-09-18 at 09.48.11 (2).jpeg (dining / view)
     ],
     features: [
       'Panoramic Mountain Valley View from window',
@@ -111,10 +111,10 @@ export const ROOMS: Room[] = [
     bedType: 'Queen Double Bed',
     popular: false,
     images: [
-      '/media/winterline-55.jpg', // WhatsApp Image 2026-09-18 at 09.48.29 (1).jpeg
-      '/media/winterline-17.jpg', // WhatsApp Image 2026-09-18 at 09.48.03.jpeg
-      '/media/winterline-06.jpg', // WhatsApp Image 2026-09-18 at 09.47.52.jpeg
-      '/media/winterline-27.jpg', // WhatsApp Image 2026-09-18 at 09.48.11.jpeg
+      './media/winterline-55.jpg', // WhatsApp Image 2026-09-18 at 09.48.29 (1).jpeg
+      './media/winterline-17.jpg', // WhatsApp Image 2026-09-18 at 09.48.03.jpeg
+      './media/winterline-06.jpg', // WhatsApp Image 2026-09-18 at 09.47.52.jpeg
+      './media/winterline-27.jpg', // WhatsApp Image 2026-09-18 at 09.48.11.jpeg
     ],
     features: [
       'Cozy wooden headboard & peaceful mountain ambiance',
@@ -138,7 +138,7 @@ export const ADVENTURES: Adventure[] = [
     duration: '4 - 5 Hours',
     difficulty: 'Moderate',
     color: 'from-amber-600/30 to-amber-950/60',
-    image: '/media/new-trek-03.jpg', // Rahul Kohli leading trek on ridge
+    image: './media/new-trek-03.jpg', // Rahul Kohli leading trek on ridge
     description: 'A signature Dhanaulti trek scaling the ancient forest trails of Top Tibba. Ascend past tall deodar, oak, and wild rhododendron canopies to reach an open alpine ridge boasting unobstructed 360-degree views of Himalayan snow peaks.',
     highlights: [
       'Guided trail with local Himalayan mountain leader Rahul Kohli',
@@ -156,7 +156,7 @@ export const ADVENTURES: Adventure[] = [
     duration: 'Overnight Experience',
     difficulty: 'Easy',
     color: 'from-indigo-600/30 to-slate-950/60',
-    image: '/media/new-trek-05.jpg', // Quechua tents on ridge cliff with trekking group
+    image: './media/new-trek-05.jpg', // Quechua tents on ridge cliff with trekking group
     description: 'Pitch genuine high-grade Quechua dome tents atop the mountain ridge overlooking the twinkling valley lights. Cozy up around a crackling wood campfire with acoustic mountain tunes and hot pahadi dinner.',
     highlights: [
       'Weather-resistant Quechua waterproof dome tents',
@@ -175,7 +175,7 @@ export const ADVENTURES: Adventure[] = [
     duration: 'Overnight Adventure',
     difficulty: 'Moderate',
     color: 'from-emerald-600/30 to-teal-950/60',
-    image: '/media/winterline-71.jpg', // Trek group & suspension bridge
+    image: './media/winterline-71.jpg', // Trek group & suspension bridge
     description: 'An unforgettable wilderness descent: hike 4 kilometers down into the secluded Dhanaulti river canyon. Camp right on the banks of a babbling glacial mountain stream with the symphony of rushing water lulling you to sleep.',
     highlights: [
       'Scenic 4km guided downhill nature trek through river gorges',
@@ -200,7 +200,7 @@ export const TREK_STEPS: TrekStep[] = [
       'Trek briefing covering trail gradient, resting stones & safety protocols',
       'Pahadi herbal warm tea & trail energy dry fruits handed out'
     ],
-    image: '/media/new-trek-01.jpg',
+    image: './media/new-trek-01.jpg',
     badge: 'STAGE 1: PREPARATION'
   },
   {
@@ -215,7 +215,7 @@ export const TREK_STEPS: TrekStep[] = [
       'Fresh natural mountain spring water pitstops along shaded trails',
       'Plucking organic wild apples from hillside orchard slopes along the path'
     ],
-    image: '/media/new-trek-03.jpg',
+    image: './media/new-trek-03.jpg',
     badge: 'STAGE 2: THE ASCENT'
   },
   {
@@ -230,7 +230,7 @@ export const TREK_STEPS: TrekStep[] = [
       'Securing high-altitude wind guy lines and ground anchors',
       'Unrolling sub-zero sleeping bags and plush thermal ground mats'
     ],
-    image: '/media/new-trek-05.jpg',
+    image: './media/new-trek-05.jpg',
     badge: 'STAGE 3: CAMP SETUP'
   },
   {
@@ -245,7 +245,7 @@ export const TREK_STEPS: TrekStep[] = [
       'Campfire with fragrant mountain cedar logs to keep everyone warm',
       'Steaming hot Ghar-ka-khana (dal, mountain subzi, rotis) served under the Milky Way'
     ],
-    image: '/media/new-trek-12.jpg',
+    image: './media/new-trek-12.jpg',
     badge: 'STAGE 4: NIGHT CAMP'
   },
   {
@@ -260,7 +260,7 @@ export const TREK_STEPS: TrekStep[] = [
       'Riverside tent pitching directly on smooth pebble riverbanks',
       'Morning dip in fresh crystal rock pools and riverbank tea brewing'
     ],
-    image: '/media/new-trek-06.jpg',
+    image: './media/new-trek-06.jpg',
     badge: 'STAGE 5: RIVER VALLEY'
   }
 ];
@@ -268,7 +268,7 @@ export const TREK_STEPS: TrekStep[] = [
 export const TREK_PHOTOS: TrekPhoto[] = [
   {
     id: 'trek-01',
-    url: '/media/new-trek-01.jpg',
+    url: './media/new-trek-01.jpg',
     title: 'Expedition Rucksacks & Stone Trail',
     subtitle: 'Basecamp Preparation',
     category: 'gear',
@@ -277,7 +277,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-02',
-    url: '/media/new-trek-02.jpg',
+    url: './media/new-trek-02.jpg',
     title: 'Himalayan Ridge Pathway',
     subtitle: 'Top Tibba Trail Contour',
     category: 'trail',
@@ -286,7 +286,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-03',
-    url: '/media/new-trek-03.jpg',
+    url: './media/new-trek-03.jpg',
     title: 'Host Rahul Kohli Leading The Ascent',
     subtitle: 'Native Mountain Guide',
     category: 'trail',
@@ -295,7 +295,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-04',
-    url: '/media/new-trek-04.jpg',
+    url: './media/new-trek-04.jpg',
     title: 'Rustic Stone Cottage & Quechua Base',
     subtitle: 'Pahadi Village Camping',
     category: 'camp',
@@ -304,7 +304,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-05',
-    url: '/media/new-trek-05.jpg',
+    url: './media/new-trek-05.jpg',
     title: 'Ridge Cliff Campsite & Trekkers',
     subtitle: 'Panoramic Mountain Camp',
     category: 'camp',
@@ -313,7 +313,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-06',
-    url: '/media/new-trek-06.jpg',
+    url: './media/new-trek-06.jpg',
     title: 'Alpine Forest Ridges & Vistas',
     subtitle: 'Himalayan Landscape',
     category: 'views',
@@ -322,7 +322,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-07',
-    url: '/media/new-trek-07.jpg',
+    url: './media/new-trek-07.jpg',
     title: 'Ancient Deodar Forest Walk',
     subtitle: 'Shaded Pine Canopies',
     category: 'trail',
@@ -331,7 +331,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-08',
-    url: '/media/new-trek-08.jpg',
+    url: './media/new-trek-08.jpg',
     title: 'Meadow Tents by Mountain Hamlets',
     subtitle: 'Village Peace & Solitude',
     category: 'camp',
@@ -340,7 +340,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-09',
-    url: '/media/new-trek-09.jpg',
+    url: './media/new-trek-09.jpg',
     title: 'Sunlit Forest Path to the Summit',
     subtitle: 'Paced Elevation Gain',
     category: 'trail',
@@ -349,7 +349,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-10',
-    url: '/media/new-trek-10.jpg',
+    url: './media/new-trek-10.jpg',
     title: 'Guided Group Along Mountain Slopes',
     subtitle: 'Safe Wayfinding',
     category: 'trail',
@@ -358,7 +358,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-11',
-    url: '/media/new-trek-11.jpg',
+    url: './media/new-trek-11.jpg',
     title: 'High Altitude Valley Lookout',
     subtitle: 'Mid-Trek Scenic Halt',
     category: 'views',
@@ -367,7 +367,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-12',
-    url: '/media/new-trek-12.jpg',
+    url: './media/new-trek-12.jpg',
     title: 'Dusk Overlook from Cliffside Tent',
     subtitle: 'Front-Row Winter Line Horizon',
     category: 'camp',
@@ -376,7 +376,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-13',
-    url: '/media/new-trek-13.jpg',
+    url: './media/new-trek-13.jpg',
     title: 'Summit Crest Viewpoint',
     subtitle: 'Top Tibba 360° Panorama',
     category: 'views',
@@ -385,7 +385,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-14',
-    url: '/media/new-trek-14.jpg',
+    url: './media/new-trek-14.jpg',
     title: 'Fresh Mountain Apple Harvest',
     subtitle: 'Organic Trail Bounty',
     category: 'orchard',
@@ -394,7 +394,7 @@ export const TREK_PHOTOS: TrekPhoto[] = [
   },
   {
     id: 'trek-15',
-    url: '/media/new-trek-15.jpg',
+    url: './media/new-trek-15.jpg',
     title: 'Crisp Hillside Orchard Harvest',
     subtitle: 'Pure Dhanaulti Apples',
     category: 'orchard',
@@ -404,18 +404,18 @@ export const TREK_PHOTOS: TrekPhoto[] = [
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  { id: '1', url: '/media/winterline-81.jpg', title: 'Mountain Cliff Quechua Camping', category: 'camping', description: 'Tents pitched on the Dhanaulti ridge under open blue skies' },
-  { id: '2', url: '/media/winterline-84.jpg', title: 'Top Tibba Pine & Oak Trail', category: 'treks', description: 'Trekkers making their way up the 8km Top Tibba forest path' },
-  { id: '3', url: '/media/winterline-71.jpg', title: 'Expedition Team & Suspension Bridge', category: 'treks', description: 'Adventure group geared with harnesses for alpine rope bridges' },
-  { id: '4', url: '/media/winterline-54.jpg', title: 'Deluxe Room Valley Window', category: 'rooms', description: 'King size bedding with breathtaking Dhanaulti morning views' },
-  { id: '5', url: '/media/winterline-28.jpg', title: 'Panoramic Dining Glasshouse', category: 'scenic', description: 'Floor-to-ceiling glass dining overlooking the terraced hills' },
-  { id: '6', url: '/media/winterline-44.jpg', title: 'Fresh Mountain Apple Harvest', category: 'food', description: 'Crisp organic apples plucked right from surrounding orchards' },
-  { id: '7', url: '/media/winterline-45.jpg', title: 'Authentic Hot Pahadi Thali', category: 'food', description: 'Home-cooked dal, fresh subzi, chutney, and steaming rotis' },
-  { id: '8', url: '/media/winterline-49.jpg', title: 'Morning Tea on Balcony', category: 'scenic', description: 'Hot chai with a view of endless green Himalayan ranges' },
-  { id: '9', url: '/media/winterline-41.jpg', title: 'Deluxe Suite Marble Bedframe', category: 'rooms', description: 'Spotless linen, private bath, and warm mountain comfort' },
-  { id: '10', url: '/media/winterline-79.jpg', title: 'Sunset Glow through Deodars', category: 'scenic', description: 'The famous amber and crimson horizon dusk of Dhanaulti' },
-  { id: '11', url: '/media/winterline-88.jpg', title: 'Family Tent in Mountain Village', category: 'camping', description: 'Peaceful campsite by ancient Garhwali stone cottages' },
-  { id: '12', url: '/media/winterline-82.jpg', title: 'Eco Park Group Gathering', category: 'treks', description: 'Large trekking and student groups hosted with safety' }
+  { id: '1', url: './media/winterline-81.jpg', title: 'Mountain Cliff Quechua Camping', category: 'camping', description: 'Tents pitched on the Dhanaulti ridge under open blue skies' },
+  { id: '2', url: './media/winterline-84.jpg', title: 'Top Tibba Pine & Oak Trail', category: 'treks', description: 'Trekkers making their way up the 8km Top Tibba forest path' },
+  { id: '3', url: './media/winterline-71.jpg', title: 'Expedition Team & Suspension Bridge', category: 'treks', description: 'Adventure group geared with harnesses for alpine rope bridges' },
+  { id: '4', url: './media/winterline-54.jpg', title: 'Deluxe Room Valley Window', category: 'rooms', description: 'King size bedding with breathtaking Dhanaulti morning views' },
+  { id: '5', url: './media/winterline-28.jpg', title: 'Panoramic Dining Glasshouse', category: 'scenic', description: 'Floor-to-ceiling glass dining overlooking the terraced hills' },
+  { id: '6', url: './media/winterline-44.jpg', title: 'Fresh Mountain Apple Harvest', category: 'food', description: 'Crisp organic apples plucked right from surrounding orchards' },
+  { id: '7', url: './media/winterline-45.jpg', title: 'Authentic Hot Pahadi Thali', category: 'food', description: 'Home-cooked dal, fresh subzi, chutney, and steaming rotis' },
+  { id: '8', url: './media/winterline-49.jpg', title: 'Morning Tea on Balcony', category: 'scenic', description: 'Hot chai with a view of endless green Himalayan ranges' },
+  { id: '9', url: './media/winterline-41.jpg', title: 'Deluxe Suite Marble Bedframe', category: 'rooms', description: 'Spotless linen, private bath, and warm mountain comfort' },
+  { id: '10', url: './media/winterline-79.jpg', title: 'Sunset Glow through Deodars', category: 'scenic', description: 'The famous amber and crimson horizon dusk of Dhanaulti' },
+  { id: '11', url: './media/winterline-88.jpg', title: 'Family Tent in Mountain Village', category: 'camping', description: 'Peaceful campsite by ancient Garhwali stone cottages' },
+  { id: '12', url: './media/winterline-82.jpg', title: 'Eco Park Group Gathering', category: 'treks', description: 'Large trekking and student groups hosted with safety' }
 ];
 
 export const WINTER_LINE_FACTS = [
@@ -456,3 +456,4 @@ export const TESTIMONIALS = [
     tag: 'Winter Line Sunset & Stay'
   }
 ];
+

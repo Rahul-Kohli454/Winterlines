@@ -121,8 +121,8 @@ export default function ScrubExperience() {
         <div className="absolute inset-0 z-0">
           <video
             ref={videoRef}
-            src="/media/winterline-experience.mp4"
-            poster="/media/video-poster.jpg"
+            src="./media/winterline-experience.mp4"
+            poster="./media/video-poster.jpg"
             muted
             playsInline
             preload="auto"
